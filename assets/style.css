@@ -1,12 +1,11 @@
-/*Color styling*/
+/*Google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Lexend&family=Poppins:wght@300&display=swap');
 
-*,
-*::before,
-*::after{
-    box-sizing: border-box;
+*{
     outline: red solid 1px;
 }
 
+/*Color styling*/
 :root{
     --color-one: 38, 41, 43;
     --color-two: 46, 50, 57;
@@ -31,13 +30,14 @@
     color: rgb(var(--color-four));
 }
 
-body {
-  color: white;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: 0;
-  color: white;
-  min-height: 100vh;
+body{
+    color:#fff;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    color: #fff;
+    font-family: lexend, sans-serif;
+    min-height: 100vh;
 }
