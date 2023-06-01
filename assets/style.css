@@ -13,3 +13,20 @@
     --color-four: 162, 178, 238;
 }
 
+
+/*Font styling*/
+.charleston-green{
+    color: rgb(var(--color-one));
+}
+
+.ford-green{
+    color: rgb(var(--color-two));
+}
+
+.medium-blue{
+    color: rgb(var(--color-three));
+}
+
+.light-blue{
+    color: rgb(var(--color-four));
+}
