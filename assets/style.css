@@ -41,3 +41,67 @@ body{
     font-family: lexend, sans-serif;
     min-height: 100vh;
 }
+
+header {
+  position: fixed;
+  text-align: center;
+  top: 0;
+}
+
+header h1 {
+  margin-bottom: 0;
+}
+
+header span {
+  color: rgb(var(--color-one));
+  font-family: 'Prompt', arial, sans-serif;
+  margin: 0;
+}
+
+/*Generic styling for code*/
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.font-weight {
+  font-weight: bold;
+}
+
+.text-transform {
+  text-transform: uppercase;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.rounded-border {
+  border-radius: 10px;
+}
+
+.padding {
+  padding: 0.5em;
+}
+
+.margin {
+  margin: 0.5em;
+}
+
+.margin-zero {
+  margin: 0;
+}
+
+.width {
+  width: 100vw;
+}
+
+.max-width {
+  max-width: 650px;
+}
