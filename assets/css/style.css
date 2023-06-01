@@ -9,40 +9,44 @@
 
 /*Color styling*/
 :root{
-    --color-one: 38, 41, 43;
-    --color-two: 46, 50, 57;
-    --color-three: 95, 122, 219;
-    --color-four: 162, 178, 238;
+  --color-one: 38, 41, 43;
+  --color-two: 46, 50, 57;
+  --color-three: 95, 122, 219;
+  --color-four: 162, 178, 238;
+  --color-five: 13, 145, 171;
 }
 
 /*Font styling*/
 .charleston-green{
-    color: rgb(var(--color-one));
+  color: rgb(var(--color-one));
 }
 
 .ford-green{
-    color: rgb(var(--color-two));
+  color: rgb(var(--color-two));
 }
 
 .medium-blue{
-    color: rgb(var(--color-three));
+  color: rgb(var(--color-three));
 }
 
 .light-blue{
-    color: rgb(var(--color-four));
+  color: rgb(var(--color-four));
 }
 
+.cyan{
+  color: rgb(var(--color-five));
+}
 body{
-    color:#fff;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: 0;
-    color: #fff;
-    font-family: 'Lexend', arial, sans-serif;
-    background: url(../assets/images/polygon-1s-1084px.png) no-repeat center / cover;
-    height: 100vh;
+  color:#fff;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  color: #fff;
+  font-family: 'Lexend', arial, sans-serif;
+  background: url(../images/polygon-1s-1084px.png) no-repeat center / cover;
+  min-height: 100vh;
 }
 
 header {
@@ -56,9 +60,9 @@ header h1 {
 }
 
 header span {
-    color: rgb(var(--color-one));
-    font-family: 'Prompt', arial, sans-serif;
-    margin: 0;
+  color: rgb(var(--color-three));
+  font-family: 'Prompt', arial, sans-serif;
+  margin: 0;
 }
 
 /*Generic styling for code*/
