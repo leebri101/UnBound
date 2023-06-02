@@ -7,12 +7,17 @@
   box-sizing: border-box;
 }
 
-/*Color styling*/
+/*Color palette*/
 :root{
+  /*Charleston Green*/
   --color-one: 38, 41, 43;
+  /*Ford Green*/
   --color-two: 46, 50, 57;
+  /*Medium Blue*/
   --color-three: 95, 122, 219;
+  /*Light Blue*/
   --color-four: 162, 178, 238;
+  /*Cyan*/
   --color-five: 13, 145, 171;
 }
 
@@ -36,6 +41,8 @@
 .cyan{
   color: rgb(var(--color-five));
 }
+
+/*Background styling*/
 body{
   color:#fff;
   top: 0;
@@ -49,6 +56,7 @@ body{
   min-height: 100vh;
 }
 
+/*Header styling*/
 header {
   position: fixed;
   text-align: center;
@@ -57,14 +65,37 @@ header {
 
 header h1 {
   margin-bottom: 0;
+  font-size: 2.5em;
 }
 
 header span {
-  color: rgb(var(--color-three));
+  color: rgb(var(--color-five));
   font-family: 'Prompt', arial, sans-serif;
   margin: 0;
 }
 
+/* Animations */
+.animate {
+  animation: animation 1.5s ease;
+}
+
+@keyframes animation {
+  from {
+    letter-spacing: 15px;
+  }
+  to {
+    letter-spacing: 0;
+  }
+}
+
+
+
+p span {
+  color:rgb(var(--color-four));
+  font-family: 'Prompt', arial, sans-serif;
+  font-weight: bold;
+  font-size: 1.5em;
+}
 /*Generic styling for code*/
 .flex-column {
   display: flex;
