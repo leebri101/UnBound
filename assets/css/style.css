@@ -52,7 +52,7 @@ body{
   margin: 0;
   color: #fff;
   font-family: 'Lexend', arial, sans-serif;
-  background: url(../images/polygonbg.png) no-repeat center / cover;
+  background: url(../images/backrground.svg) no-repeat center / cover;
   min-height: 100vh;
 }
 
@@ -74,6 +74,12 @@ header span {
   margin: 0;
 }
 
+p span {
+  color:rgb(var(--color-four));
+  font-family: 'Prompt', arial, sans-serif;
+  font-weight: bold;
+  font-size: 1.5em;
+}
 /* Social media styling */
 
 
@@ -91,14 +97,6 @@ header span {
   }
 }
 
-
-
-p span {
-  color:rgb(var(--color-four));
-  font-family: 'Prompt', arial, sans-serif;
-  font-weight: bold;
-  font-size: 1.5em;
-}
 /*Generic styling for code*/
 .flex-column {
   display: flex;
